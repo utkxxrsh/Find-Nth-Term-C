@@ -12,7 +12,7 @@ int main(){
    int y=0;
    scanf("%d",&n);
    for(int i=0;i<=n;i++){
-       y=y+(2*a+(n-1)*d);
+       y=y+(2*a+(i-1)*d);
 
 
    } 
